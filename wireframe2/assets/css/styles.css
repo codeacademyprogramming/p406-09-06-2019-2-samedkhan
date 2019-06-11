@@ -1,0 +1,101 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.button-style {
+  display: inline-block;
+  border: 1px solid #e4e4e4;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: black;
+  text-decoration: none;
+}
+
+.common-section-style{
+    margin-bottom: 50px;
+}
+
+header {
+  padding: 15px 20px;
+}
+
+header .brand-logo {
+  float: left;
+}
+
+header .brand-logo img {
+  width: 120px;
+}
+
+header .navigation-bar {
+  margin-top: 5px;
+  float: right;
+}
+
+header .navigation-bar ul li {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.section-heading {
+  padding: 20px 0;
+  font-size: 24px;
+  font-weight: 600;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  margin-bottom: 15px;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#modern-business .business-features-list{
+    margin: 0 -10px;
+}
+#modern-business .business-features-list .business-feature-item {
+  width: calc(100%/3 - 20px);
+  border: 1px solid #e4e4e4;
+  box-sizing: border-box;
+  border-radius: 8px;
+  float: left;
+  margin: 0 10px;
+}
+
+#modern-business .business-features-list .business-feature-item .item-heading {
+  padding: 15px;
+  background-color: #80808033;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+#modern-business .business-features-list .business-feature-item .item-content {
+  padding: 15px;
+}
+
+#modern-business .business-features-list .business-feature-item .content-desc {
+  margin-bottom: 10px;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+
+/**
+ * Portfolio section.
+ */
+#portfolio .portfolio-list{
+    margin: 0 -10px;
+}
+#portfolio .portfolio-list .portfolio-item{
+    width: calc(100%/3 - 20px);
+    height: 200px;
+    margin: 10px;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.07);
+}
