@@ -14,12 +14,16 @@ https://learnlayout.com/inline-block.html
 
 https://www.geeksforgeeks.org/what-is-the-difference-between-display-inline-and-display-inline-block-in-css/
 
+
+
 Turkish:
 https://wreply.com/html-block-ve-inline-elementler.html
 
 http://www.webcebir.com/129-css-display-kullanimi-dersi.html
 
 http://www.muratoner.net/css/css-display-kullanimi-ve-ornekleri
+
+
 
 
 Russian:
@@ -34,12 +38,16 @@ https://www.formget.com/css-float-property/
 https://dev.to/neshaz/explanation-of-the-css-clear-float-property-examples-5hd2
 
 
+
+
 Turkish:
 https://fatihhayrioglu.com/float-ve-clear-ozellikler-ile-konumlandirma/
 
 https://www.yazilimbilisim.net/web/css/css-float-kullanimi/
 
 https://www.yazilimkodlama.com/web/css-float-kullanimi/
+
+
 
 
 Russian:
@@ -50,8 +58,13 @@ https://habr.com/ru/post/142486/
 https://learn.javascript.ru › CSS для JavaScript-разработчика
 
 
+
+
 Layout, Semantic markup:
 https://html.com/semantic-markup/
+
+
+
 
 
 Homework:
