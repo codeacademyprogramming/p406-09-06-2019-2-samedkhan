@@ -39,32 +39,32 @@ header .container .navbar nav a span{
     font-size: 30px;
     line-height: 35px;
 }
-main .container-fluid .intro{
+#intro .intro{
     width:100%;
     position: relative;
 }
-main .container-fluid .intro img{
+#intro .intro img{
     width:100%;    
 }
-main .container-fluid .intro .intro-heading{
+#intro .intro .intro-heading{
     position: absolute;
-    top:0;
-    left:0;
-    color:white;
-    margin: 150px 460px;
+    top: 0;
+    left: 0;
+    color: white;
+    margin: 150px 350px;
     
     
 }
-main .container-fluid .intro .intro-heading h1{
+#intro .intro .intro-heading h1{
     font-size: 100px;
     font-family: Lato-black;
 }
-main .container-fluid .intro .intro-heading p{
+#intro .intro .intro-heading p{
     font-size: 30px;
     font-family: Lato-regular;
     line-height: 40px;
 }
-main .container-fluid .intro .intro-heading a{
+#intro .intro-heading a{
     text-decoration: none;
     padding: 20px 40px;
     background-color: #337AB7;
