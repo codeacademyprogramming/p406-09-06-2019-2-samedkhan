@@ -55,7 +55,41 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-.icon-menu:before {
-  content: "\e9bd";
-}
+.icon-pencil:before {
+    content: "\e905";
+  }
+  .icon-file-picture:before {
+    content: "\e927";
+  }
+  .icon-stack:before {
+    content: "\e92e";
+  }
+  .icon-display:before {
+    content: "\e956";
+  }
+  .icon-mobile:before {
+    content: "\e958";
+  }
+  .icon-menu:before {
+    content: "\e9bd";
+  }
+  .icon-heart:before {
+    content: "\e9da";
+  }
+  .icon-checkmark:before {
+    content: "\ea10";
+  }
+  .icon-play2:before {
+    content: "\ea15";
+  }
+  .icon-facebook:before {
+    content: "\ea90";
+  }
+  .icon-instagram:before {
+    content: "\ea92";
+  }
+  .icon-twitter:before {
+    content: "\ea96";
+  }
+  
+  
