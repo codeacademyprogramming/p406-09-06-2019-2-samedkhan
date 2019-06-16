@@ -23,9 +23,9 @@ p span{
 .clearfix{
     clear: both;
 }
-[class|=icon]{
+/* [class|=icon]{
     color:  #337AB7;
-}
+} */
 .section_heading{
     float:left;
     box-sizing: border-box;
@@ -45,7 +45,15 @@ p span{
     line-height: 35px;
 }
 
-
+.brand-logo, .navbar{
+    margin: 10px -40px;
+}
+.brand-logo{
+    float: left;
+}
+.navbar{
+    float: right;
+}
 
 header .container .brand-logo h1{
     float: left;
@@ -58,22 +66,23 @@ header .container .brand-logo span{
     float: left;
     font-size: 30px;
     font-family: Lato-Black;
+    
 }
 header .container .navbar nav a{
     text-decoration: none;
     color:black;
 }
 header .container .navbar nav a span{
-    float: right;
+    
     font-size: 30px;
     line-height: 35px;
 }
-#intro .intro{
+#intro {
     background-image: url("../img/back.jpg");
     background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  height:500px;
+  height:600px;
   background-size: cover;
   position: relative;
 }
@@ -84,19 +93,19 @@ header .container .navbar nav a span{
     transform: translate(-50%, -50%);
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 33%;
     
 }
-#intro .intro-heading h1{
+#intro .intro h1{
     font-size: 60px;
     font-family: Lato-black;
 }
-#intro .intro-heading p{
+#intro .intro p{
     font-size: 20px;
     font-family: Lato-regular;
     line-height: 30px;
 }
-#intro .intro-heading a{
+#intro .intro a{
     text-decoration: none;
     padding: 15px 29px;
     background-color: #337AB7;
@@ -107,10 +116,8 @@ header .container .navbar nav a span{
     font-family: lato-regular;
 }
 
-.header, .intro, .intro-heading{
-    margin:20px -70px;
-}
-.about, .employers, .portfolio, .works_examples, .testimonials, .contact, .footer{
+
+  .about, .employers, .portfolio, .works_examples, .testimonials, .contact, .footer{
     margin: 100px -70px;
 }
 .photo{
@@ -138,7 +145,7 @@ margin:0 20px;
 }
 
 
-.check li{
+li{
     color: #9D9D9D;
     line-height: 40px;
     
@@ -159,6 +166,7 @@ margin:0 20px;
 .social{
     display:inline-block;    
     margin:0px 15px;
+    color:  #337AB7;
 }
 #employers .description{
     padding: 20px;
@@ -185,6 +193,7 @@ margin:0 20px;
 
 .portfolio_item [class|=icon]{
    font-size:60px;
+   color:#337AB7;
 }
 .portfolio_item .link{
     font-weight: 700;
@@ -212,8 +221,6 @@ margin:0 20px;
 
 }
 .signature img{
-    /* width:inherit;    
-    border-radius: inherit; */
     display:inline-block;
     width: 60px;
     height: 60px;
@@ -225,7 +232,7 @@ margin:0 20px;
 .form{
     box-sizing: border-box;
     font-size: 20px;
-    margin: 20px -15px;
+    margin: 20px 0px;
 }
 form input, form textarea {
     padding: 11px;
@@ -237,15 +244,16 @@ form input, form textarea {
     border:1px solid #D9EDF7;
     font-family: Lato-Regular;
 }
-form button{
+button{
     margin: 15px;
-    padding: 16px;
+    padding: 10px 50px;
     font-size: 20px;
     border-radius: 21px;
     color: white;
     background-color: #337AB7;
     font-family: Lato-Regular;
-    border:1px solid #D9EDF7;
+    border:1px solid #337AB7;
+    
 }
 form input:focus{
     border-radius: 5px;
@@ -255,16 +263,40 @@ form input:focus{
 
 #footer{
     background-color: #333333;
+    height:600px;
 }
 .footer_item{
     float: left;
     width: 30%;
     box-sizing: border-box;
-    background-color: #333333;
     font-size: 20px;
     margin:0 20px;
     color: #9D9D9D;
 }
 .footer_item h1{
     color:white;
+    font-weight:700;
+}
+.footer_item input{
+    padding: 15px;
+    width: 90%;
+    font-size: 20px;
+    background-color: inherit;
+    color: white;
+    font-style:italic;
+}
+.footer_item button{
+    margin: 15px 0px;
+    padding: 10px 50px;
+}
+#footer .navigation{
+    padding: 0px 100px;
+}
+#footer .copyrights{
+    width:100%;
+    text-align: center;
+    margin:50px 0px;
+}
+.copyrights span{
+    color: #9D9D9D;
 }
